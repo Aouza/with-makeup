@@ -10,4 +10,9 @@ export const Container = styled.form`
   > button {
     margin: 0;
   }
+
+  @media (max-width: 72rem) {
+    padding: 2rem 0;
+    max-width: 100%;
+  }
 `;

@@ -196,4 +196,11 @@ export const Contato = styled.section`
       line-height: 1.4;
     }
   }
+
+  @media (max-width: 52rem) {
+    > div > div:first-child {
+      align-items: baseline;
+      flex-direction: column;
+    }
+  }
 `;

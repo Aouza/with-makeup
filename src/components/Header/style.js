@@ -14,8 +14,12 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  > button > svg * {
-    color: var(--color-main-gold);
+  > button {
+    z-index: 99;
+
+    > svg * {
+      color: var(--color-main-gold);
+    }
   }
 
   @media (max-width: 72rem) {
