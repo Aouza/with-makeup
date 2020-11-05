@@ -11,7 +11,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
   overflow: hidden;
   transition: all 1s cubic-bezier(0.79, 0.14, 0.15, 0.86);
 
@@ -24,6 +24,8 @@ export const Container = styled.div`
   > ul {
     > li > a {
       color: #fff;
+      padding: 1rem 0;
+      display: block;
     }
   }
 `;

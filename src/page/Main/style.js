@@ -177,6 +177,13 @@ export const Portfolio = styled.section`
       letter-spacing: 1.4px;
     }
   }
+
+  @media (max-width: 52rem) {
+    > div > div:first-child {
+      align-items: baseline;
+      flex-direction: column;
+    }
+  }
 `;
 
 export const Contato = styled.section`
